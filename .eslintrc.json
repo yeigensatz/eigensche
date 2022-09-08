@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
   "extends": ["next/babel","next/core-web-vitals"]
 }
+=======
+  "extends": "next/core-web-vitals"
+}
+>>>>>>> 7f00a0f (Initial commit from Create Next App)

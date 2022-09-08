@@ -1,5 +1,9 @@
 .container {
+<<<<<<< HEAD
   padding: 0;
+=======
+  padding: 0 2rem;
+>>>>>>> 7f00a0f (Initial commit from Create Next App)
 }
 
 .main {
