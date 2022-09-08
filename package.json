@@ -29,13 +29,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.27",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-scroll-parallax": "^3.3.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "daisyui": "^2.25.0",
     "eslint": "8.23.0",
+<<<<<<< HEAD
     "eslint-config-next": "12.3.0"
 >>>>>>> 7f00a0f (Initial commit from Create Next App)
+=======
+    "eslint-config-next": "12.3.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+>>>>>>> 0f79125 (Initial)
   }
 }
