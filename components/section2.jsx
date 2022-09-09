@@ -1,22 +1,5 @@
 import React from "react";
 import styles from "../styles/Section2.module.css";
-<<<<<<< HEAD
-import { GiPublicSpeaker, GiBookmark, GiBookmarklet } from "react-icons/gi";
-import { IoIosPeople } from "react-icons/io";
-import { BsFillGeoAltFill } from "react-icons/bs";
-import { HiDocumentText } from "react-icons/hi";
-
-export default function Section2() {
-  return (
-    <section id="section2" className="text-white bg-base-300">
-      <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div className="max-w-lg mx-auto text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">
-            Ein ausgeklügeltes Rechtssystem
-          </h2>
-
-          <p className="mt-4 text-gray-300">
-=======
 import { GiPublicSpeaker, GiBookmark } from "react-icons/gi";
 
 export default function Section2() {
@@ -29,31 +12,20 @@ export default function Section2() {
           </h2>
 
           <p class="mt-4 text-gray-300">
->>>>>>> 0f79125 (Initial)
             Die Eigensche' Republik ist ein ordentlicher Rechtsstaat. Wir sind
             Unterstützer der direkten Demokratie, und unterstützen unsere
             Konkurrenzparteien bei Ihren Werbungen.
           </p>
         </div>
 
-<<<<<<< HEAD
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <a
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-=======
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
->>>>>>> 0f79125 (Initial)
             href="/politics"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-<<<<<<< HEAD
-              className="w-10 h-10 text-pink-500"
-=======
               class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -61,15 +33,9 @@ export default function Section2() {
               <GiPublicSpeaker />
             </svg>
 
-<<<<<<< HEAD
-            <h3 className="mt-4 text-xl font-bold text-white">Politik</h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-=======
             <h3 class="mt-4 text-xl font-bold text-white">Politik</h3>
 
             <p class="mt-1 text-sm text-gray-300">
->>>>>>> 0f79125 (Initial)
               Unsere Politik spannt sich von linksextrem, nach rechtsextrem.
               Natürlich dürfen wir nicht die gepressten Parteien vergessen. Wir
               sind extrem froh um neue Politikbegeisterte, welche der
@@ -78,21 +44,12 @@ export default function Section2() {
           </a>
 
           <a
-<<<<<<< HEAD
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/geschichte"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-pink-500"
-=======
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
             href="/services/digital-campaigns"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -100,15 +57,9 @@ export default function Section2() {
               <GiBookmark />
             </svg>
 
-<<<<<<< HEAD
-            <h3 className="mt-4 text-xl font-bold text-white">Geschichte</h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-=======
             <h3 class="mt-4 text-xl font-bold text-white">Geschichte</h3>
 
             <p class="mt-1 text-sm text-gray-300">
->>>>>>> 0f79125 (Initial)
               Vor tausenden von Jahren, existierte die Eigensche' Republik noch
               nicht. Sie war aber bereits in Planung, durch den Sonnengott der
               fernen Mostländer. Eine spannende Geschichte erwartet Sie, welche
@@ -118,90 +69,16 @@ export default function Section2() {
           </a>
 
           <a
-<<<<<<< HEAD
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/bewohner"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-pink-500"
-=======
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-<<<<<<< HEAD
-              <IoIosPeople />
-            </svg>
-
-            <h3 className="mt-4 text-xl font-bold text-white">Bewohner</h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-              Wir haben eine ausgeklügelte Liste der Bewohner der Eigensche'
-              Republik. Wir haben mehrere Minister, welche efficient und fair
-              regieren. Diese Liste liegt in einer Datenbank und kann ergänzt
-              werden.
-=======
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-
-            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
-
-            <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
->>>>>>> 0f79125 (Initial)
-            </p>
-          </a>
-
-          <a
-<<<<<<< HEAD
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
             href="/geography"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-pink-500"
-=======
-            class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
               class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-<<<<<<< HEAD
-              <BsFillGeoAltFill />
-            </svg>
-
-            <h3 className="mt-4 text-xl font-bold text-white">
-              Geographische Lage
-            </h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-              Die Eigensche' Republik wurde nach dem Sonnengott der fernen
-              Mostländer gegründet. Sie liegt in der weiten Gaisee, welche nach
-              der Tilling-Dynastie kam.
-=======
               <path d="M12 14l9-5-9-5-9 5 9 5z" />
               <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
               <path
@@ -218,45 +95,20 @@ export default function Section2() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
->>>>>>> 0f79125 (Initial)
             </p>
           </a>
 
           <a
-<<<<<<< HEAD
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/kundschaften"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-pink-500"
-=======
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
             href="/services/digital-campaigns"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-<<<<<<< HEAD
-              <GiBookmarklet></GiBookmarklet>
-            </svg>
-
-            <h3 className="mt-4 text-xl font-bold text-white">Kundschaften</h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-              Alle Kundschaften transkribiert und archiviert auf dieser Seite.
-              Diese können sein von:
-              <ul>
-                <li>- Parteipräsidien</li>
-                <li>- Bekannte Personen der Republik</li>
-                <li>- Regierung und mehr</li>
-              </ul>
-=======
               <path d="M12 14l9-5-9-5-9 5 9 5z" />
               <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
               <path
@@ -273,43 +125,20 @@ export default function Section2() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
->>>>>>> 0f79125 (Initial)
             </p>
           </a>
 
           <a
-<<<<<<< HEAD
-            className="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/documents"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-pink-500"
-=======
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
             href="/services/digital-campaigns"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-10 h-10 text-pink-500"
->>>>>>> 0f79125 (Initial)
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-<<<<<<< HEAD
-              <HiDocumentText />
-            </svg>
-
-            <h3 className="mt-4 text-xl font-bold text-white">
-              Wichtige Dokumente
-            </h3>
-
-            <p className="mt-1 text-sm text-gray-300">
-              Wichtige Dokumente, digitalisiert. Auf Papyrus dürft ihr sie gerne
-              im Eigenschen Staatsmuseum in Eigern & Tilling besuchen. (Eintritt
-              25₣)
-=======
               <path d="M12 14l9-5-9-5-9 5 9 5z" />
               <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
               <path
@@ -326,22 +155,40 @@ export default function Section2() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
->>>>>>> 0f79125 (Initial)
+            </p>
+          </a>
+
+          <a
+            class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+            href="/services/digital-campaigns"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-10 h-10 text-pink-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+              />
+            </svg>
+
+            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+            <p class="mt-1 text-sm text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis
+              laudantium.
             </p>
           </a>
         </div>
 
-<<<<<<< HEAD
-        <div className="mt-12 text-center">
-          <a
-            className="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
-            href="/get-started"
-          >
-            <span className="text-sm font-medium"> Aktuelle Initiativen </span>
-
-            <svg
-              className="w-5 h-5 ml-3"
-=======
         <div class="mt-12 text-center">
           <a
             class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
@@ -351,13 +198,13 @@ export default function Section2() {
 
             <svg
               class="w-5 h-5 ml-3"
->>>>>>> 0f79125 (Initial)
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
               <path
+<<<<<<< HEAD
 <<<<<<< HEAD
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -367,6 +214,11 @@ export default function Section2() {
                 stroke-linejoin="round"
                 stroke-width="2"
 >>>>>>> 0f79125 (Initial)
+=======
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+>>>>>>> 8f2e948 (very cool)
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
