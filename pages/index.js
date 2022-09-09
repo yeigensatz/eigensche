@@ -7,6 +7,7 @@ import styles from "../styles/Home.module.css";
 import Section1 from "../components/section1";
 import Fullpage from "../components/fullpage";
 import Section2 from "../components/section2";
+import Footer from "../components/footer"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Section1></Section1>
       <Section2></Section2>
+      <Footer></Footer>
     </div>
   );
 }
