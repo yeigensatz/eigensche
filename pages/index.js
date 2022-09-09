@@ -13,6 +13,7 @@ import Fullpage from "../components/fullpage";
 import Section2 from "../components/section2";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Footer from "../components/footer";
 import dynamic from "next/dynamic";
 import StaticContent from "../components/staticContent";
@@ -26,11 +27,19 @@ import styles from '../styles/Home.module.css'
 =======
 import Footer from "../components/footer"
 >>>>>>> 8f2e948 (very cool)
+=======
+import Footer from "../components/footer";
+import dynamic from "next/dynamic";
+import StaticContent from "../components/staticContent";
+>>>>>>> 1454ed2 (yuhui)
 
 export default function Home() {
   return (
     <div className={styles.container}>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1454ed2 (yuhui)
       <StaticContent>
         <Head>
           <title>Eigensche'</title>
@@ -40,6 +49,7 @@ export default function Home() {
         <Section2></Section2>
         <Footer></Footer>
       </StaticContent>
+<<<<<<< HEAD
     </div>
   );
 =======
@@ -50,6 +60,8 @@ export default function Home() {
       <Section1></Section1>
       <Section2></Section2>
       <Footer></Footer>
+=======
+>>>>>>> 1454ed2 (yuhui)
     </div>
 <<<<<<< HEAD
   )
