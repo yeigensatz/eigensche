@@ -8,7 +8,9 @@ export default function Section1() {
       <div className="hero min-h-screen bg-black-100">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Eigensche' Republik</h1>
+            <h1 className="text-5xl font-bold">
+              <a href="/#">Eigensche' Republik</a>
+            </h1>
             <p className="py-6">
               Die Eigensche' Republik ist eine im Wirtschafts & Recht Unterricht
               gegründete Nation. Ihre geographische Position liegt auf einer
