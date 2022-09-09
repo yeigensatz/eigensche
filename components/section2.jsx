@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../styles/Section2.module.css";
-import { GiPublicSpeaker, GiBookmark } from "react-icons/gi";
+import { GiPublicSpeaker, GiBookmark, GiBookmarklet } from "react-icons/gi";
+import { IoIosPeople } from "react-icons/io";
+import { BsFillGeoAltFill } from "react-icons/bs";
+import { HiDocumentText } from "react-icons/hi";
 
 export default function Section2() {
   return (
@@ -45,7 +48,7 @@ export default function Section2() {
 
           <a
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/geschichte"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +73,7 @@ export default function Section2() {
 
           <a
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/bewohner"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -79,22 +82,16 @@ export default function Section2() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
+              <IoIosPeople />
             </svg>
 
-            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+            <h3 class="mt-4 text-xl font-bold text-white">Bewohner</h3>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              Wir haben eine ausgeklügelte Liste der Bewohner der Eigensche'
+              Republik. Wir haben mehrere Minister, welche efficient und fair
+              regieren. Diese Liste liegt in einer Datenbank und kann ergänzt
+              werden.
             </p>
           </a>
 
@@ -109,28 +106,23 @@ export default function Section2() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
+              <BsFillGeoAltFill />
             </svg>
 
-            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+            <h3 class="mt-4 text-xl font-bold text-white">
+              Geographische Lage
+            </h3>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              Die Eigensche' Republik wurde nach dem Sonnengott der fernen
+              Mostländer gegründet. Sie liegt in der weiten Gaisee, welche nach
+              der Tilling-Dynastie kam.
             </p>
           </a>
 
           <a
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/kundschaften"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -139,28 +131,25 @@ export default function Section2() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
+              <GiBookmarklet></GiBookmarklet>
             </svg>
 
-            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+            <h3 class="mt-4 text-xl font-bold text-white">Kundschaften</h3>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              Alle Kundschaften transkribiert und archiviert auf dieser Seite.
+              Diese können sein von:
+              <ul>
+                <li>- Parteipräsidien</li>
+                <li>- Bekannte Personen der Republik</li>
+                <li>- Regierung und mehr</li>
+              </ul>
             </p>
           </a>
 
           <a
             class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
-            href="/services/digital-campaigns"
+            href="/documents"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -169,22 +158,17 @@ export default function Section2() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
+              <HiDocumentText />
             </svg>
 
-            <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+            <h3 class="mt-4 text-xl font-bold text-white">
+              Wichtige Dokumente
+            </h3>
 
             <p class="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              Wichtige Dokumente, digitalisiert. Auf Papyrus dürft ihr sie gerne
+              im Eigenschen Staatsmuseum in Eigern & Tilling besuchen. (Eintritt
+              25₣)
             </p>
           </a>
         </div>
@@ -194,7 +178,7 @@ export default function Section2() {
             class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
             href="/get-started"
           >
-            <span class="text-sm font-medium"> Get Started </span>
+            <span class="text-sm font-medium"> Aktuelle Initiativen </span>
 
             <svg
               class="w-5 h-5 ml-3"
