@@ -16,12 +16,10 @@ export default function PSection1() {
               links, rechts und gepresst. Momentan existiert 12 Parteien, wovon
               2 Jungparteien sind. Die Parteisitze sind auf dem folgenden Bild
               zu sehen:
-              <Image
-                src="/images/politics/parteisitze.png"
+              <img
+                src="../images/politics/parteisitze.png"
                 alt="Karte der Parteisitze"
-                width={500}
-                height={500}
-              ></Image>
+              ></img>
             </p>
           </div>
         </div>
