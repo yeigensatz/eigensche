@@ -7,8 +7,16 @@
     "build": "next build",
     "start": "next start",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "lint": "next lint",
     "export": "next export"
+=======
+    "lint": "next lint"
+=======
+    "lint": "next lint",
+    "export": "next export"
+>>>>>>> 6584f3d (initial)
+>>>>>>> 80f526d (initial)
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.27",
