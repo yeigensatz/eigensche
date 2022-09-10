@@ -29,6 +29,7 @@ export default function PSection1() {
               2 Jungparteien sind. Die Parteisitze sind auf dem folgenden Bild
               zu sehen:
 <<<<<<< HEAD
+<<<<<<< HEAD
               <img
                 src="https://i.ibb.co/X3HPfck/Screenshot-2022-09-10-093847.png"
                 className="mx-auto my-6 max-w-m "
@@ -41,6 +42,12 @@ export default function PSection1() {
                 height={500}
               ></Image>
 >>>>>>> dab6214 (lol)
+=======
+              <img
+                src="../images/politics/parteisitze.png"
+                alt="Karte der Parteisitze"
+              ></img>
+>>>>>>> d2900a2 (höhöhöh)
             </p>
           </div>
         </div>
