@@ -4,10 +4,14 @@ const nextConfig = {
   swcMinify: true,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 19d9e18 (finished politics page :)))
   serverRuntimeConfig: {
     PROJECT_ROOT: __dirname,
   },
 };
+<<<<<<< HEAD
 
 module.exports = nextConfig;
 =======
@@ -22,3 +26,7 @@ module.exports = nextConfig
 module.exports = nextConfig
 
 >>>>>>> dab6214 (lol)
+=======
+
+module.exports = nextConfig;
+>>>>>>> 19d9e18 (finished politics page :)))
