@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import StaticContent from "../components/staticContent";
 import PSection1 from "../components/politics/psection1";
 import Footer from "../components/footer";
@@ -257,7 +258,10 @@ export default function Home() {
 import Section1 from "../components/section1";
 import Fullpage from "../components/fullpage";
 import Section2 from "../components/section2";
+=======
+>>>>>>> dab6214 (lol)
 import StaticContent from "../components/staticContent";
+import PSection1 from "../components/politics/psection1";
 
 export default function Home() {
   return (
@@ -276,6 +280,9 @@ export default function Home() {
           <title>Eigensche'</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
+        <PSection1></PSection1>
+
+
         <div className=""></div>
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row">
