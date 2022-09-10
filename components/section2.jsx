@@ -7,7 +7,7 @@ import { HiDocumentText } from "react-icons/hi";
 
 export default function Section2() {
   return (
-    <section id="section2" className="text-white bg-gray-900">
+    <section id="section2" className="text-white bg-base-300">
       <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
         <div className="max-w-lg mx-auto text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">

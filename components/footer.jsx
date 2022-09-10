@@ -1,7 +1,7 @@
 import React from "react";
 export default function Footer() {
   return (
-    <footer className="text-white bg-gray-900 lg:grid lg:grid-cols-5">
+    <footer className="text-white bg-base-100 lg:grid lg:grid-cols-5">
       <aside className="hidden lg:relative lg:col-span-2 lg:block object-center">
         <img
           className="absolute inset-0 object-cover w-90 h-90 object-center"
